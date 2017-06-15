@@ -6,8 +6,8 @@ developed for Docker Machine.
 
 # Quick start instructions
 
-* Install `libvirt` and `qemu-kvm` on your system (e.g., `sudo apt-get install libvirt-bin qemu-kvm`)
-    * Add yourself to the `libvirtd` group (may vary by linux distro) so you don't need to sudo
+* Install `libvirt` and `qemu-kvm` on your Fedora 25 system (e.g., `sudo dnf install libvirt qemu-kvm`)
+    * Add yourself to the `libvirt` group (may vary by linux distro) so you don't need to sudo
 * Install [docker-machine](https://github.com/docker/machine/releases)
 * Go to the
   [releases](https://github.com/dhiltgen/docker-machine-kvm/releases)
