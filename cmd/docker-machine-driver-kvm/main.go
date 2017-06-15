@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/dhiltgen/docker-machine-kvm"
+	"github.com/lucodealethea/docker-machine-kvm"
 	"github.com/docker/machine/libmachine/drivers/plugin"
 )
 
