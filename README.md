@@ -63,5 +63,8 @@ Here are all currently driver parameters listed that you can use.
 | **--kvm-cache-mode** | Sets the caching mode of the kvm machine. Defaults to `default`.   |    
 | **--kvm-io-mode-url** | Sets the disk io mode of the kvm machine. Defaults to `threads`.   |      
 
+## Restrictions
+
+Fedora adopted [Atomic and Kubernetes](https://getfedora.org/en/atomic/) for Docker Container orchestration. This fork only pretend to get the kvm driver binarues and test Docker Machine on Fedora 25 in order to play with KVM Hypervisor --> IAAS (Openstack) --> BOSH ( which deploys Cloud Foundry ).
 
 
