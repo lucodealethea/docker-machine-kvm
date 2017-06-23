@@ -69,4 +69,6 @@ Other --kvm-boot2docker-url parameter (than boot2docker.iso) could be [rancher.i
 
 Fedora adopted [Atomic and Kubernetes](https://getfedora.org/en/atomic/) for Docker Container orchestration. This fork only pretend to get the kvm driver binaries and test Docker Machine on Fedora 25 in order to play with KVM Hypervisor --> IAAS (Openstack) --> BOSH ( which deploys Cloud Foundry ) as per https://github.com/SAP/bosh-kubernetes-cpi-release
 
+However, have a look at the following endorsement from Fedora Community of docker-machine used for [Minishift](https://fedoramagazine.org/run-openshift-locally-minishift/) install.
+
 
